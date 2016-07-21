@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">volleyEocBox_lib</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--For Demo -->
+    <string name="error_description">It cannot get available image for internet url link,
+        \n it will show the dummy image.</string>
+    <string name="network_image_description">Shown by NetworkImageView with url of internet</string>
+    <string name="circle_network_image_description">Shown by CircleNetworkImageView with url of internet</string>
+</resources>

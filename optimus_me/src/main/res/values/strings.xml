@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">OptimumMe</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+
+    <string name="github_fragment_title">GitHub Demo</string>
+    <string name="workouts_fragment_title">Workouts</string>
+    <string name="terms_fragment_title">Terms and Conditions</string>
+    <string name="aobut_fragment_title">About</string>
+    <string name="setting_fragment_title">Setting</string>
+</resources>

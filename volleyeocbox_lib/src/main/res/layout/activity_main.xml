@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1fb0e3"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/error_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/error_description" />
+
+            <net.eocbox.volleyeocbox_lib.toolbox.NetworkImageView
+                android:id="@+id/error_niv"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/error_tv" />
+
+            <TextView
+                android:id="@+id/demo_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/error_niv"
+                android:text="@string/network_image_description" />
+
+            <net.eocbox.volleyeocbox_lib.toolbox.NetworkImageView
+                android:id="@+id/demo_niv"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/demo_tv" />
+
+            <TextView
+                android:id="@+id/demo2_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/demo_niv"
+                android:text="@string/circle_network_image_description" />
+
+            <net.eocbox.volleyeocbox_lib.toolbox.CircleNetworkImageView
+                android:id="@+id/demo_cniv"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/demo2_tv" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
